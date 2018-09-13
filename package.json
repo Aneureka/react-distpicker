@@ -1,0 +1,74 @@
+{
+  "name": "react-distpicker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://aneureka.github.io/react-distpicker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --inline --open --hot",
+    "lint": "eslint --ext .js --ignore-path .eslintignore src",
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [
+    "中国",
+    "省份",
+    "城市",
+    "行政区",
+    "省市区",
+    "三级联动",
+    "地址选择器",
+    "China",
+    "Chinese",
+    "province",
+    "provinces",
+    "city",
+    "cities",
+    "district",
+    "districts",
+    "picker",
+    "plugin",
+    "html",
+    "css",
+    "javascript",
+    "front-end",
+    "web",
+    "development",
+    "react",
+    "component"
+  ],
+  "author": {
+    "name": "Haobin Guo",
+    "url": "https://aneureka.github.io"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
