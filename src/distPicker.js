@@ -97,8 +97,8 @@ class DistPicker extends React.Component {
     }
 
     handleSelect() {
-        if (this.props.onSelected) {
-            this.props.onSelected({
+        if (this.props.onSelect) {
+            this.props.onSelect({
                 province: this.state.currentProvince,
                 city: this.state.currentCity,
                 district: this.state.currentDistrict
@@ -133,7 +133,7 @@ DistPicker.propTypes = {
     placeholderDistrict: PropTypes.string,
     pickerClass: PropTypes.string,
     selectClass: PropTypes.string,
-    onSelected: PropTypes.func,
+    onSelect: PropTypes.func,
 };
 
 DistPicker.defaultProps = {
