@@ -9,8 +9,7 @@
     "dev": "webpack-dev-server --mode development --inline --open --hot",
     "build": "webpack-dev-server --mode production",
     "lint": "eslint --ext .js --ignore-path .eslintignore src",
-    "predeploy": "webpack",
-    "deploy": "gh-pages -d dist"
+    "deploy": "webpack"
   },
   "keywords": [],
   "author": {
@@ -38,7 +37,6 @@
     "eslint-loader": "^2.1.0",
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^1.1.11",
-    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.22.1",
     "webpack": "^4.18.0",

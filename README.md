@@ -40,7 +40,7 @@ You can have a glance in /examples.
 | placeholderCity     | placeholder for city selector                                | string | —— 市 ——      |
 | placeholderDistrict | placeholder for district selector                            | String | —— 区 ——      |
 | pickerClass         | class for the Distpicker, mainly used to change the style    | String |               |
-| selectorClass       | class for the select component in DistPicker, mainly used to change the style | String |               |
+| selectClass       | class for the select component in DistPicker, mainly used to change the style | String |               |
 | onSelect            | the callback function while selecting, receiving an object including province, city and district | func   |               |
 
 
