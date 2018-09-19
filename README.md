@@ -2,7 +2,9 @@
 
 > <code>react-distpicker</code> is a **Chinese** district picker for react, inspiring from [Distpicker](https://github.com/fengyuanchen/distpicker) 
 
+## Demo
 
+https://aneureka.github.io/react-distpicker/
 
 ## Getting started
 
