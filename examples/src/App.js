@@ -4,6 +4,11 @@ import './App.css'
 
 class App extends React.Component {
 
+
+    handleSelectSimply(dist) {
+        console.log(dist);
+    }
+
     render() {
 
         const codeOriginal = '<DistPicker />';
@@ -24,6 +29,8 @@ class App extends React.Component {
                               '    width: 200px;\n' +
                               '}';
 
+
+
         return (
             <div className="app">
                 <h1 className="title">React DistPicker Demo</h1>
@@ -34,7 +41,7 @@ class App extends React.Component {
                 </div>
                 <div className="demo">
                     <h2 className="subtitle">Customize / Elegant Demo</h2>
-                    <DistPicker pickerClass="picker" selectClass="select" />
+                    <DistPicker pickerClass="picker" selectClass="select" onSelect={this.handleSelectSimply.bind(this)}/>
                     <pre><code>{codeCustomize}</code></pre>
                 </div>
 
